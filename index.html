@@ -1,7 +1,75 @@
-<!DOCTYPE html>
 <html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+    }
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .name {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .bio {
+      font-size: 18px;
+      color: #666;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .stat {
+      width: 33%;
+      text-align: center;
+    }
+    .stat-label {
+      font-size: 14px;
+      color: #999;
+    }
+    .stat-value {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="container">
+    <div class="profile">
+      <img src="avatar.jpg" alt="avatar" class="avatar">
+      <div class="info">
+        <div class="name">John Doe</div>
+        <div class="bio">A web developer and a GitHub enthusiast.</div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-label">Repositories</div>
+        <div class="stat-value">12</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Followers</div>
+        <div class="stat-value">34</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Following</div>
+        <div class="stat-value">56</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
